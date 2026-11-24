@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "ExpenseTracker",
+    "slug": "expense-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#F7F9FC"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.expense.tracker.app",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Enable FaceID to securely access your financial wallets and expense records."
+      }
+    },
+    "android": {
+      "package": "com.expense.tracker.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0F1A2C"
+      },
+      "permissions": [
+        "USE_BIOMETRIC",
+        "USE_FINGERPRINT"
+      ]
+    }
+  }
+}

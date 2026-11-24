@@ -1,0 +1,104 @@
+# ==========================================
+# Dependencies
+# ==========================================
+node_modules/
+.pnp
+.pnp.js
+
+# ==========================================
+# Expo & React Native
+# ==========================================
+.expo/
+.expo-shared/
+web-build/
+dist/
+
+# Native prebuild directories (if generated via expo run:android / expo run:ios)
+# android/
+# ios/
+# If native builds are ejected or prebuilt locally:
+.kotlin/
+.gradle/
+build/
+android/app/build/
+ios/Pods/
+ios/build/
+*.orig.*
+
+# ==========================================
+# Environment Variables & Secrets (Security First)
+# ==========================================
+.env
+.env*.local
+.env.development
+.env.test
+.env.production
+*.env
+
+# Keystores, Certificates & Signing Keys
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.pem
+*.cer
+*.mobileprovision
+
+# Cloud & Firebase Credentials
+google-services.json
+GoogleService-Info.plist
+credentials.json
+client_secret*.json
+
+# ==========================================
+# Logs & Diagnostic Outputs
+# ==========================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# ==========================================
+# Testing & Code Coverage
+# ==========================================
+coverage/
+*.lcov
+.nyc_output
+
+# ==========================================
+# TypeScript & Build Caches
+# ==========================================
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+
+# ==========================================
+# Operating System & IDE Clutter
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+
+# IDEs & Editors
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
